@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDX Data | Nuclear APIs for AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        .neon-border {
+            box-shadow: 0 0 15px rgba(0, 255, 128, 0.3);
+            border: 1px solid #00ff80;
+        }
+        .neon-border:hover {
+            box-shadow: 0 0 30px rgba(0, 255, 128, 0.6);
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        .bg-grid {
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="bg-grid min-h-screen flex flex-col items-center">
+
+    <!-- Hero Section -->
+    <main class="flex-grow flex flex-col items-center justify-center text-center px-4 pt-20 pb-12 w-full max-w-5xl">
+        <h1 class="text-6xl md:text-8xl font-black mb-6 tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+            WEAPONIZE YOUR AI.
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl leading-relaxed">
+            Stop fighting with captchas, headless browsers, and IP blocks. We provide <strong class="text-white">Nuclear-Grade Data APIs</strong> built for LLMs and AI Agents.
+        </p>
+
+        <!-- API Cards Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
+            
+            <!-- API 1: Web Scraper -->
+            <div class="bg-black/80 backdrop-blur-md rounded-2xl p-8 neon-border flex flex-col text-left">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-3xl font-bold text-green-400">Universal Scraper</h2>
+                    <span class="bg-green-400/20 text-green-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">LIVE</span>
+                </div>
+                <p class="text-gray-400 mb-6 flex-grow">
+                    Extracts pure, clean markdown text from ANY website URL on the internet. Perfect for RAG pipelines and custom ChatGPTs.
+                </p>
+                <div class="space-y-3 mb-8">
+                    <div class="flex items-center text-sm"><span class="text-green-400 mr-2">✔</span> Bypasses Cloudflare & Bot Protection</div>
+                    <div class="flex items-center text-sm"><span class="text-green-400 mr-2">✔</span> Strips HTML/JS, returns pure Text</div>
+                    <div class="flex items-center text-sm"><span class="text-green-400 mr-2">✔</span> Sub-second response times</div>
+                </div>
+                <a href="https://rapidapi.com/madhavasaiyk/api/universal-ai-web-scraper" target="_blank" class="w-full text-center bg-green-500 hover:bg-green-400 text-black font-bold py-4 rounded-lg transition-colors text-lg uppercase tracking-wider">
+                    Get API Key
+                </a>
+            </div>
+
+            <!-- API 2: YouTube API -->
+            <div class="bg-black/80 backdrop-blur-md rounded-2xl p-8 neon-border flex flex-col text-left" style="border-color: #3b82f6; box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-3xl font-bold text-blue-500">YouTube Data API</h2>
+                    <span class="bg-blue-500/20 text-blue-500 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">LIVE</span>
+                </div>
+                <p class="text-gray-400 mb-6 flex-grow">
+                    Extract full text transcripts (subtitles) and metadata from ANY YouTube video instantly. Built for AI Video Summarizers.
+                </p>
+                <div class="space-y-3 mb-8">
+                    <div class="flex items-center text-sm"><span class="text-blue-500 mr-2">✔</span> Gets complete spoken transcripts</div>
+                    <div class="flex items-center text-sm"><span class="text-blue-500 mr-2">✔</span> Extracts Title, Channel, & Thumbnails</div>
+                    <div class="flex items-center text-sm"><span class="text-blue-500 mr-2">✔</span> Perfect JSON output for LLMs</div>
+                </div>
+                <a href="https://rapidapi.com/madhavasaiyk/api/universal-youtube-transcript-api1" target="_blank" class="w-full text-center bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-lg transition-colors text-lg uppercase tracking-wider">
+                    Get API Key
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full text-center py-8 text-gray-600 text-sm border-t border-gray-800 mt-12">
+        <p>Built with pure RDX Energy. © 2026 RDX Data. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
